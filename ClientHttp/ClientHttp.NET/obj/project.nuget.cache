@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D/EuazRxRi+EHc+COmHZP/JJgbWbz0vPQop7Ph18HRPQkoLgSOFHAJJ2B3RDyNxAL/CXlAcQGvqNlp5ZKvE96A==",
+  "dgSpecHash": "PRD15cylz3dXTKxvkDlFsdC/olvclXx3zcCaSmUTk/FXRnHbXL/+AIkE04nJKqc87qIVNzMiHXJ/6XQDlzBAUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rbonotto\\Documents\\Pessoal\\Projetos\\Git\\httpClientFactory.NET\\ClientHttp\\ClientHttp.NET\\ClientHttp.NET.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\rbonotto\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\rbonotto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\rbonotto\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rbonotto\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\rbonotto\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\rbonotto\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\rbonotto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

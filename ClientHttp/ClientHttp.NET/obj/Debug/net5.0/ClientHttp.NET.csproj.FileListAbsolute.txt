@@ -28,3 +28,4 @@ C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\httpClientFactory.NET\ClientHtt
 C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\httpClientFactory.NET\ClientHttp\ClientHttp.NET\obj\Debug\net5.0\ClientHttp.NET.pdb
 C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\httpClientFactory.NET\ClientHttp\ClientHttp.NET\obj\Debug\net5.0\ClientHttp.NET.genruntimeconfig.cache
 C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\httpClientFactory.NET\ClientHttp\ClientHttp.NET\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\httpClientFactory.NET\ClientHttp\ClientHttp.NET\bin\Debug\net5.0\Newtonsoft.Json.dll
