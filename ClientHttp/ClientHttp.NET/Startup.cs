@@ -36,22 +36,18 @@ namespace ClientHttp.NET
             // INJEÇÃO DE DEPEDENCIA
             services.AddScoped<HttpClient>();
         }
-        
-        
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            ApiConfig.UrlBase = Configuration.GetSection("UrlBase").Value;
-            var urls = new ApiConfig.Urls();
-            Configuration.GetSection("Urls").Bind(urls);
-            ApiConfig._Urls = urls;
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ClientHttp.NET v1"));
             }
+
+            ConfigurationAppSettings();
 
             app.UseHttpsRedirection();
 
@@ -63,6 +59,14 @@ namespace ClientHttp.NET
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private void ConfigurationAppSettings()
+        {
+            ApiConfig.UrlBase = Configuration.GetSection("UrlBase").Value;
+            var urls = new ApiConfig.Urls();
+            Configuration.GetSection("Urls").Bind(urls);
+            ApiConfig._Urls = urls;
         }
     }
 }
